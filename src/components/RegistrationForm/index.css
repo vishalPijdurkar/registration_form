@@ -1,0 +1,91 @@
+/* Write your CSS code here */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.registraction-form-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 44px;
+  color: #ea580c;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0px 3px 7px 0px #9aa5b1;
+  padding: 40px 30px;
+}
+
+.input-box {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.label {
+  font-size: 20px;
+  color: #475569;
+}
+
+.input {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 24px;
+  outline: none;
+  border-radius: 10px;
+}
+
+.btn-input {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+.submit-btn {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #ea580c;
+  color: white;
+  font-size: 18px;
+}
+
+.error {
+  font-size: 18px;
+  color: #ff0b37;
+  margin: 0px;
+  padding: 0px;
+}
+
+.input-error {
+  border-color: #ff0b37;
+}
+
+@media screen and (min-width: 768px) {
+  .form {
+    width: 50%;
+  }
+}
+
+.successful-registraction {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
