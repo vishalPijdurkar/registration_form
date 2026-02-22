@@ -15,7 +15,7 @@
 }
 
 .heading {
-  font-size: 44px;
+  font-size: 30px;
   color: #ea580c;
 }
 
@@ -25,7 +25,7 @@
   flex-direction: column;
   gap: 10px;
   box-shadow: 0px 3px 7px 0px #9aa5b1;
-  padding: 40px 30px;
+  padding: 20px 15px;
 }
 
 .input-box {
@@ -37,14 +37,14 @@
 }
 
 .label {
-  font-size: 20px;
+  font-size: 18px;
   color: #475569;
 }
 
 .input {
   width: 100%;
   padding: 5px 10px;
-  font-size: 24px;
+  font-size: 20px;
   outline: none;
   border-radius: 10px;
 }
@@ -76,9 +76,28 @@
   border-color: #ff0b37;
 }
 
+.success-logo {
+  width: 100px;
+  aspect-ratio: 1;
+}
+
+.success-text {
+  font-size: 26px;
+  color: #475569;
+  text-align: center;
+}
 @media screen and (min-width: 768px) {
   .form {
     width: 50%;
+  }
+  .heading {
+    font-size: 44;
+  }
+  .input {
+    font-size: 26px;
+  }
+  .label {
+    font-size: 22px;
   }
 }
 
